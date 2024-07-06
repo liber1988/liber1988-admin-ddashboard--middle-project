@@ -1,0 +1,15 @@
+.container-macrotable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.table-container {
+  width: 60%;
+}
+
+.table-cell {
+  border: 3px solid #ccc;
+  padding: 8px;
+}

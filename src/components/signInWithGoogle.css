@@ -1,0 +1,14 @@
+.sign-in-form-container {
+  width: 30%;
+  margin-top: 250px;
+  margin-left: 750px;
+}
+
+@media (max-width: 900px) {
+  .sign-in-form-container {
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+}

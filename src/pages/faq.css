@@ -1,0 +1,34 @@
+.container {
+  max-width: 600px;
+  margin-top: 150px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.faqItem {
+  margin-bottom: 10px;
+}
+
+.question {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.answer {
+  padding: 10px;
+  background-color: #e9ecef;
+  border-radius: 4px;
+  margin-top: 5px;
+}
