@@ -1,71 +1,56 @@
-# Getting Started with Create React App
+# Trader Diary Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Trader Diary Dashboard is a React application designed to help traders manage their deals, portfolios, and keep track of important economic events and news.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Trader Deals Table**: Keep track of all your trades with a comprehensive table.
+- **Investment Portfolio Matrix**: Visualize your portfolio with an easy-to-understand matrix.
+- **Macro Analysis Charts**: Get insights with various macro analysis charts.
+- **Event Calendar**: Stay updated with a calendar for trader and economic events.
+- **News Tab (Optional)**: Get the latest news relevant to your trading interests.
+- **Messages**: See messages from other traders.
+- **Profitable Trades**: View the most profitable trades.
+- **Recent Trades**: Look at the recent trades.
+- **Messaging**: Send messages to other players.
+- **Recent News**: Stay updated with the latest news.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**
+- **Context API**
+- **Material UI**
+- **Bootstrap**
+- **Axios**
+- **Firebase**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js
+- npm (or yarn)
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/trader-diary-dashboard.git
+   cd trader-diary-dashboard
+   ```
+2. Netlify deployment https://main--moonlit-otter-de694f.netlify.app/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Admin Credentials
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Email: 25@gmail.com
+Password: 123456
 
-### `npm run eject`
+### Admin Credentials
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can also create a new user by signing up on the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Dashboard: Access various features like trader deals table, investment portfolio matrix, and macro analysis charts.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# liber1988-admin-ddashboard--middle-project
+2. Messages and News: See messages from other traders and the latest news.
