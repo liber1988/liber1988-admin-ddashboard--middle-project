@@ -22,7 +22,7 @@ const NewUserDataCreation = ({ userId }) => {
       }
 
       const tradesCollectionRef = collection(db, "Users", uid, "Trades");
-      await generateSyntheticData(tradesCollectionRef, 50);
+      await generateSyntheticData(tradesCollectionRef, 150);
 
       console.log("User collections created successfully!");
     } catch (error) {

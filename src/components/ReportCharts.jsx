@@ -16,7 +16,7 @@ function ReportCharts() {
       markers: {
         size: 4,
       },
-      colors: ["#4154f1", "#2eca6a", "#ff771d", "red"],
+      colors: ["#4154f1", "#2eca6a", "#ff771d", "#ffd700", "#808080"],
       fill: {
         type: "gradient",
         gradient: {
@@ -50,9 +50,10 @@ function ReportCharts() {
       try {
         const processedData = await StrategyCompareData();
 
-        const categories = [];
+        const categoriesSet = new Set();
         const seriesMap = {};
 
+        // Initialize series map and collect all unique dates
         processedData.forEach((strategyGroup) => {
           seriesMap[strategyGroup.strategy] = {
             name: strategyGroup.strategy,
@@ -61,14 +62,19 @@ function ReportCharts() {
 
           strategyGroup.data.forEach((trade) => {
             const date = new Date(trade.entryDate).toISOString();
-            if (!categories.includes(date)) {
-              categories.push(date);
-            }
-
-            seriesMap[strategyGroup.strategy].data.push(
-              trade.accumulatedResult
-            );
+            categoriesSet.add(date);
           });
+        });
+
+        const categories = Array.from(categoriesSet).sort();
+
+        // Populate series data aligned with categories (dates)
+        processedData.forEach((strategyGroup) => {
+          const strategyName = strategyGroup.strategy;
+          seriesMap[strategyName].data = strategyGroup.data.map((trade) => ({
+            x: new Date(trade.entryDate).toISOString(),
+            y: trade.accumulatedResult,
+          }));
         });
 
         const series = Object.values(seriesMap);
