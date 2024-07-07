@@ -16,7 +16,7 @@ function ReportCharts() {
       markers: {
         size: 4,
       },
-      colors: ["#4154f1", "#2eca6a", "#ff771d"],
+      colors: ["#4154f1", "#2eca6a", "#ff771d", "red"],
       fill: {
         type: "gradient",
         gradient: {
