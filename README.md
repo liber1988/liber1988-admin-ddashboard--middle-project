@@ -42,7 +42,7 @@ Trader Diary Dashboard is a React application designed to help traders manage th
 
 ### Admin Credentials
 
-Email: 25@gmail.com
+Email: 30@gmail.com
 Password: 123456
 
 ### Create user
