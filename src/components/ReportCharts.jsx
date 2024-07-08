@@ -53,7 +53,6 @@ function ReportCharts() {
         const categoriesSet = new Set();
         const seriesMap = {};
 
-        // Initialize series map and collect all unique dates
         processedData.forEach((strategyGroup) => {
           seriesMap[strategyGroup.strategy] = {
             name: strategyGroup.strategy,
@@ -68,7 +67,6 @@ function ReportCharts() {
 
         const categories = Array.from(categoriesSet).sort();
 
-        // Populate series data aligned with categories (dates)
         processedData.forEach((strategyGroup) => {
           const strategyName = strategyGroup.strategy;
           seriesMap[strategyName].data = strategyGroup.data.map((trade) => ({

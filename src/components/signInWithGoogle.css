@@ -4,6 +4,9 @@
   margin-left: 750px;
 }
 
+.center {
+  text-align: center;
+}
 @media (max-width: 900px) {
   .sign-in-form-container {
     width: 100%;
